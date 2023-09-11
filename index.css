@@ -1,0 +1,18 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+.section{
+  background: url('./elements/Home page.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px ;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.text{
+  flex-direction: row;
+}

@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+
+
+.MystryBox {
+    width: 250px;
+    height: 380px;
+    margin-right: 10px;
+    transition: transform 0.5s;
+    margin-inline: 20px;
+    margin-top: 40px;
+    transition: all .5s ease-in-out;
+
+
+
+}
+
+.MystryBox:hover {
+    transform: perspective(200px) translateZ(10px);
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div1 {
+    flex-direction: row;
+    margin-right: 200px;
+    margin-top: 300px;
+
+}
+
+.line {
+    width: 200px;
+    height: 1px;
+    color: red;
+}
+
+
+.App-header {
+    flex-direction: column;
+}
+
+.line {
+    border: none;
+    height: 5px;
+    width: 2000px;
+    background-color: rgb(100, 229, 255);
+    box-shadow: 1 1 10px white;
+    backdrop-filter: blur(5000px);
+    background-blend-mode: color-dodge;
+}
+
+.solo {
+    font-family: 'Goldman';
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+
+.solo:hover {
+    font-family: 'Goldman', cursive;
+    font-size: 45px;
+    color: blue;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+
+
+.multi {
+    font-family: 'Goldman', cursive;
+    color: white;
+    font-family: 'Goldman';
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 100px;
+    cursor: pointer;
+    display: inline-block;
+
+
+
+}
+
+.multi:hover {
+    font-family: Georgia;
+    font-size: 45px;
+    color: blue;
+    transition-duration: 0.5s;
+}
+
+.click {
+    font-family: 'Goldman', cursive;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    margin-left: 1050px;
+    margin-top: 20px;
+    transition: transform 0.5s;
+
+}
+
+.click:hover {
+    transform: perspective(900px) translateZ(60px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    color: silver;
+    background-color: rgb(255, 71, 71);
+    backdrop-filter: blur(5000px);
+    box-shadow: 1 10 10px white;
+
+}
+
+
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+.div11 {
+    display: flex;
+    flex-direction: row;
+
+
+
+
+}
+
+
+
+
+
+.neon-box {
+    transform: perspective(900px) translateZ(60px);
+    background: #00bfff;
+    width: 1200px;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00f8, 0 0 20px #00f8, 0 0 30px #00f8, 0 0 40px #00f8;
+    padding-left: 10px;
+    padding-left: 10px;
+
+
+}
+
+
+
+.neon-text {
+    font-family: 'Goldman', cursive;
+    font-size: 40px;
+    color: white;
+    transition-duration: 0.5s;
+    margin-left: 100px;
+    padding-left: 5;
+    padding-right: 5;
+    border-color: #00bfff;
+    position: relative;
+}
+
+.neon-text::before,
+.neon-text::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    background-color: white;
+    color: #fff;
+    text-shadow: 0 0 5px #00f8, 0 0 10px #00f8, 0 0 15px #00f8, 0 0 20px #00f8;
+    
+}
+
+.neon-text::before {
+    left: -10px;
+    color: #fff;
+    text-shadow: 0 0 5px #00f8, 0 0 10px #00f8, 0 0 15px #00f8, 0 0 20px #00f8;
+}
+
+.neon-text::after {
+    right: -10px;
+    color: #fff;
+    text-shadow: 0 0 5px #00f8, 0 0 10px #00f8, 0 0 15px #00f8, 0 0 20px #00f8;
+}
+
+
+
+.neon-text:hover {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0 0 5px #00f8, 0 0 10px #00f8, 0 0 15px #00f8, 0 0 20px #00f8;
+}
